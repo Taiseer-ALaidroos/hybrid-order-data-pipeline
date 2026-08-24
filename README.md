@@ -133,7 +133,3 @@ This system was designed to match all the official assignment requirements for t
 * [x] **Metrics Consistency:** Total read records = Valid + Corrected + Quarantined.
 * [x] **Metrics & Reports:** A `reports/results.json` report is generated containing time, speed, counters, and ingestion operation details.
 * [x] **الاعتمادية (Idempotency & Upsert):** تم استخدام `order_id` كمفتاح عمل أساسي (Business Key). إعادة تشغيل نفس البيانات لا تؤدي إلى تكرارها، وتحديث السجلات يتم بآلية Upsert آمنة.
-
-```
-
-```

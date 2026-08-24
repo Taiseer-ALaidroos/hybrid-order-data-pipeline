@@ -1,0 +1,10 @@
+{
+    "run_id": "run_20260822_003742",
+    "file_name": "sample_orders.csv",
+    "engine_used": "python_batch",
+    "rows_read": 50000,
+    "raw_loaded": 50000,
+    "elapsed_seconds": 2.63,
+    "throughput": 19004.74,
+    "batch_size": 5000
+}

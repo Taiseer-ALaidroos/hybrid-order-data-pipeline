@@ -1,0 +1,18 @@
+[
+    {
+        "_id": "standalone_run",
+        "timestamp": "2026-08-21 04:40:28",
+        "raw_loaded": 30050000,
+        "valid_count": 30050000,
+        "quarantine_count": 0,
+        "elapsed_seconds": 2658.6
+    },
+    {
+        "_id": "standalone_run",
+        "timestamp": "2026-08-21 05:53:13",
+        "raw_loaded": 30050000,
+        "valid_count": 22661320,
+        "quarantine_count": 7388680,
+        "elapsed_seconds": 3671.35
+    }
+]

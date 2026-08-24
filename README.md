@@ -1,5 +1,3 @@
-
-````markdown
 # 🚀 Midterm Data Pipeline
 
 ## 📌 Overview
@@ -30,7 +28,7 @@ midterm-data-pipeline/
 ├── tests/                       # Unit tests folder
 ├── README.md                    # Project documentation
 └── requirements.txt             # Required libraries to run the project
-````
+```
 
 ---
 
@@ -55,7 +53,7 @@ The main entry point to run the project, featuring:
 ### 3. `src/file_router.py` — Smart Router
 
 * Calculates the actual file size and routes it automatically.
-* Ensures efficiency and optimal resource consumption by routing small files (≤ 200MB) to the Python engine, and larger ones to PySpark.
+* Ensures efficiency and optimal resource consumption by routing small files (≤ 200MB) to the Python engine, and larger files to PySpark.
 
 ### 4. `src/batch_engine.py` — Batch Engine
 
@@ -147,5 +145,4 @@ This system was designed to match all the official assignment requirements for t
 
 ---
 
-```
-```
+* [x] **الاعتمادية (Idempotency & Upsert):** تم استخدام `order_id` كمفتاح عمل أساسي (Business Key). إعادة تشغيل نفس البيانات لا تؤدي إلى تكرارها، وتحديث السجلات يتم بآلية Upsert آمنة.

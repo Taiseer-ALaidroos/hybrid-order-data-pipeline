@@ -6,6 +6,7 @@ This project is an advanced and flexible Data Pipeline designed to process and c
 ---
 
 ## 📂 Project Structure
+```text
 midterm-data-pipeline/
 ├── config/
 │   └── settings.py              # Project settings and global variables
@@ -26,7 +27,6 @@ midterm-data-pipeline/
 ├── README.md                    # Project documentation
 └── requirements.txt             # Required libraries to run the project
 
----
 
 ## 🛠️ Modules & Engines
 

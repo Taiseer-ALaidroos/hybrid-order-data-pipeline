@@ -145,4 +145,3 @@ This system was designed to match all the official assignment requirements for t
 
 ---
 
-* [x] **الاعتمادية (Idempotency & Upsert):** تم استخدام `order_id` كمفتاح عمل أساسي (Business Key). إعادة تشغيل نفس البيانات لا تؤدي إلى تكرارها، وتحديث السجلات يتم بآلية Upsert آمنة.

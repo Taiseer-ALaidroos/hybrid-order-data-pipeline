@@ -32,33 +32,5 @@ QUARANTINE_COLLECTION = "orders_quarantine"
 BATCH_SIZE = 5000  # حجم الدفعة لمعالجة Python Batch
 
 
-
-# import os
-
-# # تحديد المسار الرئيسي للمشروع
-# BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-# # مسارات مجلدات البيانات والتقارير
-# DATA_DIR = os.path.join(BASE_DIR, 'data')
-# REPORTS_DIR = os.path.join(BASE_DIR, 'reports')
-
-# SAMPLE_DATA_FILE = os.path.join(DATA_DIR, 'sample_orders.csv')
-# HUGE_DATA_FILE = os.path.join(DATA_DIR, 'orders_huge_mixed_quality.csv')
-
-# # التأكد من وجود مجلد التقارير
-# os.makedirs(REPORTS_DIR, exist_ok=True)
-
-# # 1. إعدادات الموجه (File Router)
-# # الحد الفاصل هو 200 ميجابايت:
-# # - إذا كان حجم الملف > 200 MB ⬅️ سيتم توجيهه إلى Spark
-# # - إذا كان حجم الملف <= 200 MB ⬅️ سيتم توجيهه إلى Python Batch
-# SMALL_FILE_THRESHOLD_MB = 200.0
-
-# # 2. إعدادات قاعدة البيانات MongoDB
-# MONGO_URI = "mongodb://localhost:27017/"
-# DB_NAME = "midterm"
-
-# # المجموعات (Collections) كما طلبها الدكتور بالضبط
-# RAW_COLLECTION = "orders_raw"
 # VALIDATED_COLLECTION = "orders_validated"
 # QUARANTINE_COLLECTION = "orders_quarantine"
